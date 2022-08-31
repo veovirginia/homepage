@@ -1,26 +1,46 @@
+:root {
+  --background: #fff;
+  --accents-1: #fafafa;
+  --accents-2: #EAEAEA;
+  --accents-3: #999;
+  --accents-4: #888;
+  --accents-5: #666;
+  --accents-6: #444;
+  --accents-7: #333;
+  --accents-8: #222;
+  --foreground: #000;
+
+  --error-lighter: #F7D4D6;
+  --error-light: #FF1A1A;
+  --error: #E00;
+  --error-dark: #C50000;
+
+  --success-lighter: #E6F6E6;
+  --success-light: #2ECC40;
+  --success: #0D9000;
+  --success-dark: #0B6E00;
+
+  --cyan-lighter: #AAFFEC;
+  --cyan-light: #79FFE1;
+  --cyan: #50E3C2;
+  --cyan-dark: #29BC9B;
+
+  --violet-lighter:#D8CCF1;
+  --violet-light: #8A63D2;
+  --violet: #7928CA;
+  --violet-dark: #4C2889;
+
+  --highlight-purple: #F81CE5;
+  --highlight-magenta: #EB367F;
+  --highlight-pink: #FF0080;
+  --highlight-yellow: #FFF500;
+}
+
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
 }
