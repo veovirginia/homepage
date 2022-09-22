@@ -13,11 +13,15 @@
     "geist": "^0.1.2",
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "3.7.0-dev"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "eslint": "8.23.0",
+    "eslint": {
+      "extends": "next/core-web-vitals",
+      "rules": { "react/no-unescaped-entities": 0, "react/no-unknown-property": 0, "react/jsx-no-target-blank": 0, "react/jsx-key": 0 }
+    },
     "eslint-config-next": "12.2.5"
+
   }
 }
