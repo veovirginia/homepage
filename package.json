@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@geist-ui/core": "^2.3.8",
+    "geist": "^0.1.2",
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "typescript": "2.8.0"
   },
   "devDependencies": {
     "eslint": "8.23.0",
